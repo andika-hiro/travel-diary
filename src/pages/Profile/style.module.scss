@@ -1,0 +1,73 @@
+.profile {
+  background-color: #ededed;
+  padding-bottom: 30px;
+  .title {
+    padding-top: 65px;
+    padding-left: 57px;
+    h1 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+  }
+  .userProfile {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    img {
+      width: 200px;
+      height: 200px;
+      flex-shrink: 0;
+      border-radius: 200px;
+      border: 2px solid #2e86de;
+      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    h1 {
+      text-align: center;
+      color: #000;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      margin-top: 10px;
+    }
+    h2 {
+      color: #6c6c6c;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 100;
+      line-height: normal;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #fff;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 10px 20px 10px 20px;
+      border-radius: 5px;
+      background: #2e86de;
+      margin-left: 30px;
+    }
+  }
+  .cardContainer {
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    .card {
+      cursor: pointer;
+    }
+  }
+}

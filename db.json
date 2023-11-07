@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "post user 1",
+      "author": "typicode",
+      "shortDescription": "ini merupakan short description",
+      "description": "<h1>ini merupakan long desc</h1>",
+      "date": "2023-10-20",
+      "image": "https://asset.kompas.com/crops/8V5SenUCNHPUjgjqOTEINoO2ZI0=/0x0:740x493/750x500/data/photo/2020/09/18/5f6495ea1cdaa.jpg",
+      "userID": 1
+    },
+    {
+      "id": 2,
+      "title": "post user 2",
+      "author": "typicode",
+      "shortDescription": "ini merupakan short description",
+      "description": "<h1>ini merupakan long desc</p>",
+      "date": "2023-10-20",
+      "image": "https://asset.kompas.com/crops/WB-0GlvnEVc5vHLuRuowcO98gdg=/0x0:780x390/780x390/data/photo/2019/01/24/15632785941.jpg",
+      "userID": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Hiro",
+      "email": "hiroandika@gmail.com",
+      "password": "password123"
+    },
+    {
+      "fullname": "andika hiro",
+      "email": "andikanolas@gmail.com",
+      "password": "password",
+      "id": 2
+    }
+  ]
+}

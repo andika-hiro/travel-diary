@@ -1,0 +1,50 @@
+.detailContainer {
+  background-color: #ededed;
+  font-family: Poppins;
+  padding-bottom: 30px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 65px;
+    h1 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: italic;
+      font-weight: 100;
+      line-height: normal;
+    }
+    h2 {
+      color: #3b97d3;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    p {
+      padding-top: 20px;
+      color: #000;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 100;
+      line-height: normal;
+    }
+  }
+  .imageContainer {
+    padding-top: 51px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 720px;
+      height: 480px;
+    }
+  }
+  .longDesc {
+    padding-top: 65px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}

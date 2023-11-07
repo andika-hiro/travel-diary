@@ -1,0 +1,87 @@
+.registerContainer {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(244, 243, 243);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .btnBack {
+    position: absolute;
+    left: 400px;
+    top: 100px;
+  }
+  .card {
+    width: 416px;
+    height: 575px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    .title {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      h1 {
+        color: #000;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .errorMessage {
+      color: red;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      label {
+        margin-top: 15px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      input {
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid rgba(210, 210, 210, 0.25);
+        background: rgba(210, 210, 210, 0.25);
+      }
+      button {
+        margin-top: 35px;
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+        background: #2e86de;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .registerLink {
+      color: #b1b1b1;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 100;
+      line-height: normal;
+      text-align: center;
+      margin-top: 23px;
+      a {
+        font-weight: 900;
+        color: #b1b1b1;
+      }
+    }
+  }
+}
